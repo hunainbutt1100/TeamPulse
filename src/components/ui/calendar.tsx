@@ -1,6 +1,5 @@
 'use client';
 
-import { ChevronLeftIcon, ChevronRightIcon } from '@radix-ui/react-icons';
 import * as React from 'react';
 import { DayPicker } from 'react-day-picker';
 
@@ -45,10 +44,6 @@ function Calendar({ className, classNames, showOutsideDays = true, ...props }: C
         day_range_middle: 'aria-selected:bg-accent aria-selected:text-accent-foreground',
         day_hidden: 'invisible',
         ...classNames,
-      }}
-      components={{
-        NavButtonPrev: ({ ...props }) => <ChevronLeftIcon className="h-4 w-4" />,
-        NavButtonNext: ({ ...props }) => <ChevronRightIcon className="h-4 w-4" />,
       }}
       {...props}
     />
