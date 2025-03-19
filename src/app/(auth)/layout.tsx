@@ -23,7 +23,7 @@ const AuthLayout = ({ children }: PropsWithChildren) => {
               <Link href={isSignIn ? '/sign-up' : 'sign-in'}>{isSignIn ? 'Register' : 'Login'}</Link>
             </Button>
 
-            <SourceCode />
+            {/* <SourceCode /> */}
           </div>
         </nav>
 

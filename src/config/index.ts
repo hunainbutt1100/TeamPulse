@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const siteConfig: Metadata = {
-  title: 'Jira Clone',
-  description: 'Full-stack Jira Clone using Next.js 14 and Appwrite.',
+  title: 'Team Pulse',
+  description: 'Team Pulse',
   keywords: [
     'reactjs',
     'nextjs',
@@ -49,12 +49,4 @@ export const siteConfig: Metadata = {
     'clsx',
     'lucide-react',
   ] as Array<string>,
-  authors: {
-    name: 'Sanidhya Kumar Verma',
-    url: 'https://github.com/sanidhyy',
-  },
-} as const;
-
-export const links = {
-  sourceCode: 'https://github.com/sanidhyy/jira-clone',
 } as const;
