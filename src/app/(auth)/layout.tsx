@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import type { PropsWithChildren } from 'react';
 
 import { Logo } from '@/components/logo';
-import { SourceCode } from '@/components/source-code';
+// import { SourceCode } from '@/components/source-code';
 import { Button } from '@/components/ui/button';
 
 const AuthLayout = ({ children }: PropsWithChildren) => {
